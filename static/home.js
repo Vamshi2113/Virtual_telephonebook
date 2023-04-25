@@ -1,6 +1,6 @@
 let enter_btn=document.getElementsByClassName("enter_btn")[0];
 enter_btn.addEventListener("click",(event)=>{
-fetch("http://localhost/home")
+fetch("http://128.199.21.49/home")
 .then(function (response) {
 	// The API call was successful!
 	return response.text();
